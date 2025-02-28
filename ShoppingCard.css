@@ -1,0 +1,140 @@
+h1 {
+    color: rgb(172, 172, 172);
+    font: 2rem "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 5px;
+}
+
+h2 {
+    color: rgb(58, 56, 56);
+    font: 1.2rem "Fira Sans", sans-serif;
+    font-weight: 600;
+    text-align: right;
+}
+
+h3 {
+    color: rgb(27, 97, 47);
+    font: 1 rem "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+
+p {
+    color: rgb(58, 56, 56);
+    font: 1rem "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-align: right;
+}
+
+body {
+    background-color: seashell;
+}
+
+html, body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* Yatayda ortalar */
+    align-items: center;
+    /* Dikeyde ortalar */
+}
+
+
+.box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2,
+p {
+    margin: 5px 0;
+    text-align: left;
+}
+
+button {
+    background-color: rgb(206, 64, 88);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font: "Fira Sans", sans-serif;
+    width: 40%;
+}
+
+button:hover {
+    background-color: rgb(225, 114, 132);
+    transition: all 0.2s;
+}
+
+button:active {
+    background-color: rgb(206, 64, 88);
+    transition: all 0.2s;
+}
+
+.background-container {
+    background-color: rgba(236, 219, 219, 0.883);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+    position: absolute;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    border-radius: 0.5rem;
+    width: 50%;
+    max-width: 90%;
+    border: 0.05em solid rgb(215, 215, 215);
+    position: relative;
+
+}
+
+
+select {
+    padding: 0.5rem 1rem;
+    border: 0.1em solid rgb(214, 214, 214);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font: "Fira Sans", sans-serif;
+    width: 40%;
+    color: black;
+    background-color: rgb(246, 246, 246);
+    margin-bottom: 1rem;
+}
+
+.container:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+
+}
+
+.çiçek1{
+    top: 10%;
+    left: 20%;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+}
+
+body {
+    background-image: url('1.png');
+    background-size: cover; 
+    background-position: center; 
+}
